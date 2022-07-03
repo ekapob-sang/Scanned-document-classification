@@ -26,8 +26,8 @@ Multiclass classification
 	นายแพทย์เอกภพ แสงอริยวนิช พ.บ., วว.โสต ศอ นาสิก วิทยา
 	กลุ่มงานโสต ศอ นาสิก และ กลุ่มงานดิจิทัลทางการแพทย์ สถาบันมะเร็งแห่งชาติ 
 	Email : ekapobkks@gmail.com
-	ปัจจุบันเป็น Ph.D student Doctor of Philosophy Program in Data Science for Healthcare and Clinical Informatics
-         (International Program) ของ Department of Clinical Epidemiology & Biostatistics, Research Centre
+	ปัจจุบันเป็น Ph.D student สาขาวิชา Data Science for Healthcare and Clinical Informatics
+         ของ Department of Clinical Epidemiology & Biostatistics, Research Centre
 	 , Faculty of Medicine, Ramathibodi Hospital, Mahidol University
 
  
