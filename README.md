@@ -20,8 +20,13 @@
   1.3 ทำการตัดคำ ( Tokenization ) , เอาคำทั่วๆไป (ซึ่งไม่สำคัญออก เช่น the , a , on ) , เอาสัญลักษณ์และตัวเลขออก, ลดรูปขแ
 องคำ ( stemmatization เพื่อลดความหลากหลายของคำ เช่น lying , lies เมื่อลดรูปแล้วเท่ากับคำว่า lie เหมือนกัน) และปรับคำให้เป็นตัวพิมพ์เล็กทั้งหมด 
 2. สร้างโมเดล
-
-
+   ในการสร้างโมเดล เลือก traditional machine learning มาใช้ทดลอง 4 โมเดล ได้แก่ 
+   1) Logistic regression (LG)
+   2) Naive Bayes (NB)
+   3) Random Forest ( RF )
+   4) Support vector machine (SVM)
+ โดยการหาค่า parameter ที่เหมาะสมของแต่ละโมเดลใช้วิธีการ cross validation ร่วมกับ Randomsearch และ Gridsearch
+   
 
 
 ### **Model **
