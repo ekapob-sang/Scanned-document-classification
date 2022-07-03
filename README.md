@@ -9,7 +9,7 @@
      - 2) ผลการตรวจทางรังสีวิทยา 
      - 3) ผลตรวจทางห้องปฎิบัติการ  
      - 4) เอกสารอื่นๆ
-  - 1.2 นำเอกสารผ่าน OCR tool เพื่อแปลงตัวอักษรในภาพให้กลายเป็นตัวอักษร (text)ที่สามารถประมวลผลต่อได้ ซึ่งในโครงการนี้ใช้ library ของ https://pypi.org/project/pytesseract/ ตัวอย่างวิธีการใช้งานมีในไฟล์ 
+  - 1.2 นำเอกสารผ่าน OCR tool เพื่อแปลงตัวอักษรในภาพให้กลายเป็นตัวอักษร (text)ที่สามารถประมวลผลต่อได้ ซึ่งในโครงการนี้ใช้ library ของ https://pypi.org/project/pytesseract/ ตัวอย่างวิธีการใช้งานมีในไฟล์ https://github.com/ekapob-sang/Scanned-document-classification/blob/a6a370f1e0ef661e151b34eb269a44981e7e1860/svm_plot.png
 
 
 
