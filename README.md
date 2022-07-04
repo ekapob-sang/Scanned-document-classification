@@ -20,7 +20,14 @@
   1.3 ทำการตัดคำ ( Tokenization ) , เอาคำทั่วๆไป (ซึ่งไม่สำคัญออก เช่น the , a , on ) , เอาสัญลักษณ์และตัวเลขออก, ลดรูปขแ
 องคำ ( stemmatization เพื่อลดความหลากหลายของคำ เช่น lying , lies เมื่อลดรูปแล้วเท่ากับคำว่า lie เหมือนกัน) และปรับคำให้เป็นตัวพิมพ์เล็กทั้งหมด 
 2. สร้างโมเดล
-   ในการสร้างโมเดล เลือก traditional machine learning มาใช้ทดลอง 4 โมเดล ได้แก่ 
+![image](https://user-images.githubusercontent.com/76510467/177083543-818ffb46-3f66-4043-b0ec-4b302c34aa8a.png)
+
+ 2.1 random split data (ให้มีสัดส่วนประเภทเอกสารเหมื่อน dataset) 80% สำหรับ train model และ 20% สำหรับ test model
+ 
+ 2.2 สร้าง vector representation เป็นตัวแทนข้อความในเอกสาร  โดยวิธี term frequency–inverse document frequency (TFI-DF) ซึ่งใช้หลักการว่า คำๆหนึ่งในเอกสาร มีความสำคัญแค่ไหน เมื่อเทียบกับ 
+     คำทั้งหมดในชุดข้อมูล ดังนั้น ถ้าคำที่พบมากในเอกสารหนึ่งๆ แต่คำๆนั้น ก็ปรากฏในเอกสารอื่นๆเช่นกัน ค่าน้ำหนัก tfi-df ก็จะมีค่าน้อย
+     
+ 2.3 Train model โดยในการสร้างโมเดล เลือก traditional machine learning มาใช้ทดลอง 4 โมเดล ได้แก่ 
    1) Logistic regression (LG)
    2) Naive Bayes (NB)
    3) Random Forest ( RF )
