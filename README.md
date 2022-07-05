@@ -47,6 +47,25 @@
  2.4 เมื่อได้ model แล้ว นำ test data มาทดสอบกับโมเดล โดย test data ก็ต้องผ่าน tfi-df แบบเดียวกับ train data 
  
  ### **การประเมินผล**
+ ![image](https://user-images.githubusercontent.com/76510467/177254476-10f9e992-8764-4cfe-970c-6cb24a526a57.png)
+
+[image source: https://www.codespeedy.com/confusion-matrix-using-scikit-learn-in-python/]
+
+1. Precision
+
+Precision = true positive/(true positive + false positive)
+
+2. Accuracy
+
+Accuracy = true positive + true negative /(true positive + true negative + false negative + false positive)
+
+3. Recall (sensitivity)
+
+Recall =  true positive/(true postitive + false negative)
+
+4. F1-score
+ 
+F1 score = (2 X Precision X Recall)/(Recall+Precision  )
 
  
    
