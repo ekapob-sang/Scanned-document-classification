@@ -27,17 +27,24 @@
  2.2 สร้าง vector representation เป็นตัวแทนข้อความในเอกสาร  โดยวิธี term frequency–inverse document frequency (TFI-DF) ซึ่งใช้หลักการว่า คำๆหนึ่งในเอกสาร มีความสำคัญแค่ไหน เมื่อเทียบกับ 
      คำทั้งหมดในชุดข้อมูล ดังนั้น ถ้าคำที่พบมากในเอกสารหนึ่งๆ แต่คำๆนั้น ก็ปรากฏในเอกสารอื่นๆเช่นกัน ค่าน้ำหนัก tfi-df ก็จะมีค่าน้อย
      
- 2.3 Train model โดยในการสร้างโมเดล เลือก traditional machine learning มาใช้ทดลอง 4 โมเดล ได้แก่ 
+ 2.3 Train model ในงานนี้แบบ Multiclass classification   โดยในการสร้างโมเดล เลือก traditional machine learning มาใช้ทดลอง 4 โมเดล ได้แก่ 
    1) Logistic regression (LG)
    2) Naive Bayes (NB)
    3) Random Forest ( RF )
    4) Support vector machine (SVM)
+   
  โดยการหาค่า parameter ที่เหมาะสมของแต่ละโมเดลใช้วิธีการ cross validation ร่วมกับ Randomsearch และ Gridsearch
+ 
+ 2.4 เมื่อได้ model แล้ว นำ test data มาทดสอบกับโมเดล โดย test data ก็ต้องผ่าน tfi-df แบบเดียวกับ train data 
+ 
+ 2.5 
+ 
+ ตัวอย่างโค้ดตั้งแต่
    
 
 
-### **Model **
-Multiclass classification 
+
+
 
 
 
