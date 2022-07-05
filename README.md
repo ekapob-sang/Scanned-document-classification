@@ -76,7 +76,9 @@ F1 score = (2 X Precision X Recall)/(Recall+Precision  )
 
 https://github.com/ekapob-sang/Scanned-document-classification/blob/main/code/ocr_to_text.ipynb
 
-2. งานทดลอง
+2. ตัวอย่าง code การทดลอง (เฉพาะ logistic regression)
+
+https://github.com/ekapob-sang/Scanned-document-classification/blob/main/code/scan_doc_classification_tutorial.ipynb
 
 
 
