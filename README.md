@@ -54,6 +54,7 @@
 
 ### **Python code**
 1. แปลง scanned doucmnet ให้เป็น text file
+https://github.com/ekapob-sang/Scanned-document-classification/blob/main/code/ocr_to_text.ipynb
 2. งานทดลอง
 
 
