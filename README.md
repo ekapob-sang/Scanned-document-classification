@@ -3,6 +3,7 @@
 * [วัตถุประสงค์](#วัตถุประสงค์)
 * [วิธีการทดลอง](#วิธีการทดลอง)
 * [การประเมินผล](#การประเมินผล)
+* [Result](#result)
 * [Python code](#code)
 ### **วัตถุประสงค์**
 
@@ -67,11 +68,11 @@ Recall =  true positive/(true postitive + false negative)
  
 F1 score = (2 X Precision X Recall)/(Recall+Precision  )
 
- 
+### **Result**
+
    
+### **Code**
 
-
-### **Python code**
 1. แปลง scanned doucmnet ให้เป็น text file
 
 https://github.com/ekapob-sang/Scanned-document-classification/blob/main/code/ocr_to_text.ipynb
