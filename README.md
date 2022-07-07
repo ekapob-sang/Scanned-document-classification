@@ -69,6 +69,27 @@ Recall =  true positive/(true postitive + false negative)
 F1 score = (2 X Precision X Recall)/(Recall+Precision  )
 
 ### **Result**
+1. จำนวนเอกสารแต่ละประเภทใน dataset
+
+![image](https://user-images.githubusercontent.com/76510467/177668184-fece4b6d-bf7d-4621-8573-cdcf17ea7372.png)
+
+2. ผลการทดสอบ AI model  กับ  test data
+![image](https://user-images.githubusercontent.com/76510467/177666859-9b50d1a5-0f6a-41ae-aa91-39425e6b4ac5.png)
+
+3. confusion matrix จาก model ที่สร้างจาก logistic regression
+
+![image](https://user-images.githubusercontent.com/76510467/177668359-4112c784-e6d7-4e9a-8529-fd6bb89fe5ae.png)
+
+4. การ plot decision boundary ของ model เนื่องจากข้อมูลมีถึง 300 dimension ซึ่งไม่สามารถ plot ได้ จึงทำการลด dimension เหลือ 2 dimension ด้วยวิธี principal component analysis (PCA) ซึ่ง plot test data ได้ตามรูป
+
+![image](https://user-images.githubusercontent.com/76510467/177669085-9b70355f-45a1-4ace-8482-bf2b9eead7df.png)
+
+และในการ plot decision boundary เป็นตัวอย่าง เพื่อให้ดูง่ายจึงเลือก SVM with linear kernel มา plot
+ซึ่ง model ให้ precision และ accuracy ประมาณ 87%
+
+![image](https://user-images.githubusercontent.com/76510467/177669309-b57d1c45-d15d-4188-9ffd-ad279f2cd358.png)
+
+
 
    
 ### **Code**
